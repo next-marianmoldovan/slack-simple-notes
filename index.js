@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({
 app.use(methodOverride());
 
 function checkAuth(req, res, next){
-  if(req.body.token === 'tt8v7Dymb7Ou1RDKTnpQPeVx')
+  if(req.body.token === 'TOKEN')
     next();
   else res.status(401).end();
 }
