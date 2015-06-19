@@ -1,0 +1,23 @@
+{
+  "name": "slack-note",
+  "version": "1.0.0",
+  "description": "A note manager for Slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Marian C Moldovan",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/beeva-marianmoldovan/slack-simple-notes"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.12.4",
+    "footon": "^0.3.11",
+    "method-override": "^2.3.3"
+  }
+}
